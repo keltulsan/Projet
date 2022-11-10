@@ -44,17 +44,17 @@
 
 
 # defini la fonction pierrePapierCiseau de paramètres multiplayer qui est un booléen , nbRound qui est un int
-    # initialisation du speudo du joueur1 au retoure l'éxécution de la fonction input de paramètre le nom du joueur
-    # initialisation de joueur2 comme etant un Robot (un str)
+    # initialisation du pseudo du joueur1 au retoure l'éxécution de la fonction input de paramètre le nom du joueur
+    # initialisation de joueur2 comme etant un str nommé Robot
     # initialisation d'un compteur de point nommé pointJoueur1 du joueur à 0
     # initialisation d'un compteur de point nommé pointJoueur2 du joueur à 0
     # initialisation du choix du joueur1 qui est un mot vide nommé choixJoueur1
     # initialisation du choix du joueur2 qui est un mot vide nommé choixJoueur2
     # initialisation gagner valant 0
     # initialisation d'un dictionnaire nommé dico qui a pour clè le nom du coup joué et la valeur de celui-ci ##{pierre:0, papier:1, ciseaux:2}
-    # initialisation de isRègle valant le retoure l'éxécution de la fonction input de paramètre le choix si le joueur veut voir les règles
+    # initialisation de isRègle valant le retoure l'éxécution de la fonction input de paramètre le choix si le joueur veut voir les règles (True or False)
     # initialisation de règlesDuJeu qui est un str ##expliquant les règles du jeu
-    # initialisation de cpt valant 0
+    # initialisation d'un compteur nommé cpt valant 0
 
     # si isRègle vaut vrai
         # alors
@@ -64,7 +64,7 @@
         # alors
         #Si gameMode est True 
             # alors
-            # assigne du speudo du joueur2  grâce au retoure l'éxécution de la fonction input de paramètre le nom du joueur
+            # assigne du pseudo du joueur2  grâce au retoure l'éxécution de la fonction input de paramètre le nom du joueur
             # afficher le choix des coups possibles grâce au retour de l'éxécution de la fontion print de paramètre les valeurs de dico ##(dico.items)
             # assigner à choixJoueur1 la valeur du retour de l'éxécution de la fonction input de paramètre le numéro de clé du dictionnaire pour choisir le coup qu'il veut jouer
             # assigner à choixJoueur2 la valeur du retour de l'éxécution de la fonction input de paramètre le numéro de clé du dictionnaire pour choisir le coup qu'il veut jouer
