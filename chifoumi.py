@@ -58,20 +58,20 @@
 
     # si isRègle vaut vrai
         # alors
-        # afficher règlesDuJeu grâce au retour de l'éxécution de la fontion print de paramètre règlesDuJeu 
+        # afficher les règlesDuJeu 
 
     # tant que cpt <= nbRound
         # alors
         #Si gameMode est True 
             # alors
             # assigne du pseudo du joueur2  grâce au retoure l'éxécution de la fonction input de paramètre le nom du joueur
-            # afficher le choix des coups possibles grâce au retour de l'éxécution de la fontion print de paramètre les valeurs de dico ##(dico.items)
+            # afficher le choix des coups possibles ##les valeurs de dico (dico.items)
             # assigner à choixJoueur1 la valeur du retour de l'éxécution de la fonction input de paramètre le numéro de clé du dictionnaire pour choisir le coup qu'il veut jouer
             # assigner à choixJoueur2 la valeur du retour de l'éxécution de la fonction input de paramètre le numéro de clé du dictionnaire pour choisir le coup qu'il veut jouer
 
         # Sinon (joueur2 est un robot)
             # alors
-            # afficher le choix des coups possibles grâce au retour de l'éxécution de la fontion print de paramètre les valeurs de dico ##(dico.items)
+            # afficher le choix des coups possibles ## les valeurs de dico (dico.items)
             # assigner à choixJoueur1 la valeur du retour de l'éxécution de la fonction input de paramètre le numéro de clé du dictionnaire pour choisir le coup qu'il veut jouer
             # assigner à choixJoueur2 la valeur du retour de l'éxécution de la fonction random de paramètre les valeurs de dico ##(dico.values) ### (0,1,2)
 
